@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: product
+    description: "The product in mydata"
+    columns:
+      - name: product_id
+        description: "The primary key for table"
+        tests:
+          - unique
+          - not_null
+
+  - name: city
+    description: "The product in mydata"
+    columns:
+      - name: city_id
+        description: "The primary key for table"
+        tests:
+          - unique
+          - not_null
+
+  - name: country
+    description: "The product in mydata"
+    columns:
+      - name: country_id
+        description: "The primary key for table"
+        tests:
+          - unique
+          - not_null
+
